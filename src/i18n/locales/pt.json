@@ -1,0 +1,501 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Quem Somos",
+    "services": "Serviços",
+    "news": "Publicações",
+    "contact": "Contactos",
+    "gallery": "Galeria"
+  },
+  "about": {
+    "menu": {
+      "who": "Quem Somos",
+      "mission": "Missão e Visão",
+      "objectives": "Objectivos",
+      "structure": "Organograma"
+    },
+    "metadata": {
+      "title": "Quem Somos | CFM LOGISTICS",
+      "description": "Conheça a CFM LOGISTICS e nossa missão de transformar a logística em Moçambique"
+    },
+    "hero": {
+      "subtitle": "SOBRE NÓS",
+      "title": "Quem Somos",
+      "description": "Construindo o futuro da logística em Moçambique com excelência e inovação"
+    },
+    "description": {
+      "subtitle": "SOBRE NÓS",
+      "title": "Liderança em Logística",
+      "highlight": "Conectando Moçambique ao Mundo",
+      "content": {
+        "first": "A CFM LOGISTICS é pioneira em soluções logísticas integradas, combinando experiência secular com inovação para atender às demandas de transporte e logística em Moçambique.",
+        "second": "Nosso compromisso é conectar recursos locais a mercados globais, com operações eficientes em transporte marítimo, ferroviário e armazenagem, promovendo desenvolvimento sustentável."
+      },
+      "stats": {
+        "tradition": "Anos de Tradição",
+        "ports": "Portos Modernos",
+        "projects": "Projetos Estratégicos"
+      }
+    },
+    "creation": {
+      "subtitle": "NOSSA ORIGEM",
+      "title": "Criação e Constituição",
+      "highlight": "da CFM LOGISTICS",
+      "content": {
+        "first": "A CFM LOGISTICS foi criada para reforçar a infraestrutura logística de Moçambique, com foco no transporte e na indústria de petróleo e gás. Constituída como sociedade anónima de propósito específico, é integralmente detida pelos Caminhos de Ferro de Moçambique (CFM), beneficiando da sua vasta experiência ferroviária e portuária.",
+        "second": "Com uma abordagem moderna e sustentável, a CFM LOGISTICS posiciona-se como parceiro estratégico, garantindo eficiência, segurança e competitividade na gestão de operações logísticas."
+      },
+      "image_alt": "CFM LOGISTICS Constituição"
+    },
+    "mission_vision": {
+      "mission": {
+        "subtitle": "NOSSA MISSÃO",
+        "title": "Conectando Recursos",
+        "highlight": "e Oportunidades",
+        "description": "Proporcionar soluções logísticas integradas e sustentáveis, conectando recursos locais a mercados globais, promovendo o desenvolvimento econômico e social de Moçambique."
+      },
+      "vision": {
+        "subtitle": "NOSSA VISÃO",
+        "title": "Referência em",
+        "highlight": "Logística Africana",
+        "description": "Ser a referência em logística e transporte na África, reconhecida pela inovação, eficiência e impacto positivo no crescimento sustentável de Moçambique."
+      },
+      "objectives": {
+        "subtitle": "COMPROMISSOS ESTRATÉGICOS",
+        "title": "Pilares de Atuação",
+        "description": "Bases fundamentais que orientam nossa excelência operacional",
+        "0": {
+          "title": "Infraestrutura Logística",
+          "description": "Expandir e modernizar portos, ferrovias e sistemas de armazenagem."
+        },
+        "1": {
+          "title": "Sustentabilidade e Inovação",
+          "description": "Implementar práticas que reduzam o impacto ambiental e aumentem a eficiência operacional."
+        },
+        "2": {
+          "title": "Setor Energético",
+          "description": "Oferecer serviços especializados e personalizados para atender às necessidades do setor energético."
+        },
+        "3": {
+          "title": "Desenvolvimento Local",
+          "description": "Criar oportunidades econômicas e sociais para os moçambicanos, assegurando uma distribuição equitativa da riqueza."
+        },
+        "4": {
+          "title": "Excelência Operacional",
+          "description": "Manter altos padrões de qualidade e segurança em todas as operações logísticas."
+        }
+      }
+    },
+    "timeline": {
+      "subtitle": "NOSSA HISTÓRIA",
+      "title": "Linha do Tempo",
+      "description": "Uma jornada de excelência e inovação na logística moçambicana",
+      "events": {
+        "0": {
+          "title": "Lançamento Oficial do CFM Logistics",
+          "description": "Marco histórico que estabelece uma nova era na logística moçambicana, com o lançamento oficial da CFM Logistics, empresa dedicada a revolucionar o setor com soluções integradas e inovadoras."
+        },
+        "1": {
+          "title": "Tomada de posse do Conselho de Administração e do CEO",
+          "description": "Momento significativo com a nomeação da liderança estratégica, marcando o início de uma gestão focada em excelência operacional e desenvolvimento sustentável do setor logístico."
+        },
+        "2": {
+          "title": "Início das Operações Portuárias em Pemba",
+          "description": "Expansão estratégica com o início das operações no Porto de Pemba, fortalecendo a presença da CFM Logistics no norte do país e ampliando a capacidade logística da região."
+        },
+        "3": {
+          "title": "Inicio das Operações Marítimas em Nacala",
+          "description": "Ampliação das operações marítimas para o Porto de Nacala, consolidando a presença da CFM Logistics em um dos principais corredores logísticos do país e reforçando sua capacidade de atender demandas internacionais."
+        },
+        "4": {
+          "title": "Operações no Porto de Nacala",
+          "description": "Operações estratégicas para atender às demandas do setor de petróleo e gás, maximizando a infraestrutura marítima e portuária."
+        },
+        "5": {
+          "title": "Parcerias Estratégicas",
+          "description": "Participação ativa na logística e suporte a grandes empreendimentos no setor energético, incluindo projetos como Coral Sul FLNG, Rovuma LNG e Golfinho/Atum LNG."
+        }
+      }
+    },
+    "banner": {
+      "image_alt": "CFM Logistics Infraestrutura",
+      "title": "Logística que Transforma.",
+      "highlight": "Conexões que Impulsionam.",
+      "description": "Com expertise secular, infraestrutura robusta e compromisso com a sustentabilidade, a CFM LOGISTICS conecta Moçambique ao mundo e impulsiona o progresso econômico.",
+      "cta": "Saiba mais sobre nossas soluções integradas"
+    },
+    "office": {
+      "subtitle": "NOSSO ESCRITÓRIO",
+      "title": "Onde nos Encontrar",
+      "description": "Estamos estrategicamente localizados para melhor atender nossos clientes",
+      "contact": {
+        "location": "Cidade de Maputo",
+        "phone": "+258 21 427 631",
+        "email": "info@cfm.co.mz",
+        "address": "Praça dos Trabalhadores, Maputo, Moçambique"
+      },
+      "labels": {
+        "phone": "Telefone",
+        "email": "Email",
+        "address": "Endereço"
+      },
+      "image_alt": "CFM LOGISTICS Office",
+      "cta": "Entre em contato"
+    }
+  },
+  "footer": {
+    "company": "Empresa",
+    "services": "Serviços",
+    "contact": "Contacte-nos",
+    "social": "Siga-nos",
+    "rights": "Todos os direitos reservados",
+    "address": "Praça dos Trabalhadores, Maputo, Moçambique",
+    "phone": "Telefone",
+    "email": "Email"
+  },
+  "cta": {
+    "learn_more": "Saiba Mais",
+    "contact_us": "Contacte-nos",
+    "submit": "Submeter Solicitação",
+    "send": "Enviar Mensagem"
+  },
+  "form": {
+    "full_name": "Nome Completo",
+    "email": "Email Profissional",
+    "phone": "Telefone de Contacto",
+    "company": "Empresa/Organização",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "required": "Campos obrigatórios",
+    "select_subject": "Selecione um assunto"
+  },
+  "home": {
+    "hero": {
+      "slides": [
+        {
+          "title": "Logística Integrada",
+          "subtitle": "Conectando Moçambique ao Mundo",
+          "description": "Soluções completas para sua cadeia logística"
+        },
+        {
+          "title": "Transporte Marítimo e Ferroviário",
+          "subtitle": "Eficiência em Cada Trajeto",
+          "description": "Infraestrutura estratégica para sua carga"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Compromisso com o Futuro",
+          "description": "Operações ambientalmente responsáveis"
+        },
+        {
+          "title": "Padrões Globais",
+          "subtitle": "Excelência em Cada Operação",
+          "description": "Qualidade e segurança internacional"
+        },
+        {
+          "title": "Construindo o Futuro",
+          "subtitle": "Inovação em Logística",
+          "description": "Tecnologia a seu serviço"
+        }
+      ],
+      "welcome": "BEM-VINDO À CFM LOGISTICS"
+    },
+    "about": {
+      "subtitle": "SOBRE NÓS",
+      "title": "CFM LOGISTICS:",
+      "highlight": "Liderança em Movimento",
+      "description": "Conectando recursos e oportunidades, transformando Moçambique em um polo logístico estratégico.",
+      "content": {
+        "first": "A CFM LOGISTICS é uma empresa pioneira em soluções logísticas integradas, combinando tradição e inovação para impulsionar o desenvolvimento econômico de Moçambique. Com mais de um século de experiência no setor ferroviário, portuário e marítimo, a empresa lidera operações que conectam mercados regionais e globais.",
+        "second": "Focada em sustentabilidade e eficiência, a CFM LOGISTICS oferece serviços personalizados para atender às demandas das indústrias de petróleo, gás e outros setores estratégicos. Nossa missão é transformar desafios logísticos em oportunidades, promovendo progresso econômico e social."
+      },
+      "stats": [
+        {
+          "value": "75+",
+          "label": "Anos de Experiência"
+        },
+        {
+          "value": "1000+",
+          "label": "Colaboradores"
+        },
+        {
+          "value": "24/7",
+          "label": "Operações"
+        }
+      ]
+    },
+    "services": {
+      "subtitle": "NOSSOS SERVIÇOS",
+      "title": "Soluções Completas",
+      "description": "Conheça nossa gama de serviços especializados projetados para atender suas necessidades logísticas",
+      "items": [
+        {
+          "title": "Transporte Marítimo",
+          "description": "Operações portuárias e logística marítima com padrões internacionais"
+        },
+        {
+          "title": "Transporte Ferroviário",
+          "description": "Rede ferroviária eficiente conectando pontos estratégicos"
+        },
+        {
+          "title": "Soluções de Armazenagem",
+          "description": "Instalações modernas para armazenamento e manuseio de cargas"
+        }
+      ]
+    },
+    "solutions": {
+      "subtitle": "NOSSAS SOLUÇÕES",
+      "title": "Soluções que Movem",
+      "highlight": "Moçambique",
+      "description": "Serviços estratégicos para conectar recursos, pessoas e oportunidades.",
+      "items": [
+        {
+          "title": "Transporte Marítimo e Ferroviário",
+          "description": "Movemos cargas de forma eficiente pelos portos e ferrovias de Moçambique, conectando regiões e mercados globais."
+        },
+        {
+          "title": "Armazenagem e Logística Integrada",
+          "description": "Soluções completas para armazenagem e manuseio de cargas, garantindo eficiência e segurança."
+        },
+        {
+          "title": "Serviços Personalizados para Petróleo e Gás",
+          "description": "Atendemos demandas específicas da indústria energética com expertise e infraestrutura moderna."
+        },
+        {
+          "title": "Gestão de Projetos Logísticos",
+          "description": "Planejamos e executamos operações logísticas complexas, adaptadas às necessidades de cada cliente."
+        }
+      ]
+    },
+    "social": {
+      "title": "Conectando Moçambique",
+      "subtitle": "Infraestrutura que Impulsiona o Desenvolvimento",
+      "description": "Com uma infraestrutura robusta e operações eficientes, a CFM LOGISTICS desempenha um papel fundamental no crescimento econômico, facilitando o comércio e a mobilidade em Moçambique.",
+      "cta": "Saiba mais sobre nossas operações"
+    },
+    "news": {
+      "subtitle": "ÚLTIMAS NOTÍCIAS",
+      "title": "Mantenha-se Atualizado",
+      "description": "Acompanhe nossas últimas notícias e atualizações",
+      "empty": "Nenhuma notícia disponível no momento",
+      "loading": "Carregando notícias...",
+      "view_all": "Ver Todas"
+    },
+    "partners": {
+      "subtitle": "NOSSOS PARCEIROS",
+      "title": "Alianças Estratégicas",
+      "description": "Trabalhando juntos pela excelência logística"
+    },
+    "video": {
+      "subtitle": "CONHEÇA-NOS MELHOR",
+      "title": "Nossa História em",
+      "highlight": "Movimento",
+      "description": "Assista ao nosso vídeo institucional e descubra como a CFM LOGISTICS está transformando a logística em Moçambique."
+    }
+  },
+  "services": {
+    "hero": {
+      "subtitle": "NOSSAS SOLUÇÕES",
+      "title": "Soluções Logísticas Integradas",
+      "highlight": "para um Futuro Conectado",
+      "description": "Do transporte ferroviário ao marítimo, da armazenagem à logística especializada, garantimos eficiência e inovação para conectar Moçambique ao mundo.",
+      "image_alt": "CFM LOGISTICS Serviços"
+    },
+    "introduction": {
+      "subtitle": "NOSSA EXPERTISE",
+      "title": "Logística Inteligente para",
+      "highlight": "Indústrias Estratégicas",
+      "description": "A CFM LOGISTICS oferece soluções logísticas completas, projetadas para atender às necessidades de transporte, armazenagem e manuseio de cargas em diversos setores. Com infraestrutura robusta e expertise secular, conectamos negócios locais a mercados globais, sempre com eficiência e compromisso com a sustentabilidade."
+    },
+    "list": {
+      "subtitle": "NOSSOS SERVIÇOS",
+      "title": "Soluções Completas para",
+      "highlight": "Sua Cadeia Logística",
+      "0": {
+        "title": "Transporte Marítimo e Ferroviário",
+        "description": "Com uma extensa rede ferroviária e portos estratégicos, garantimos soluções de transporte multimodal que reduzem custos e aumentam a eficiência no deslocamento de cargas.",
+        "highlights": [
+          "Conectividade entre portos, ferrovias e estradas",
+          "Transporte seguro de cargas pesadas e granéis",
+          "Soluções sob medida para diferentes setores"
+        ]
+      },
+      "1": {
+        "title": "Armazenagem e Logística Integrada",
+        "description": "Nossos terminais de armazenagem oferecem infraestrutura moderna para garantir segurança, eficiência e controle total sobre o manuseio de cargas.",
+        "highlights": [
+          "Armazéns de alta capacidade com tecnologia avançada",
+          "Monitoramento em tempo real para maior controle",
+          "Gestão integrada para otimizar custos e tempo"
+        ]
+      },
+      "2": {
+        "title": "Serviços para Petróleo e Gás",
+        "description": "Com expertise no setor de energia, atendemos operações logísticas para transporte, armazenagem e manuseio de derivados de petróleo e gás.",
+        "highlights": [
+          "Infraestrutura especializada para combustíveis",
+          "Operações seguras e certificadas para GNL",
+          "Cumprimento rigoroso das normas ambientais"
+        ]
+      },
+      "3": {
+        "title": "Gestão de Projetos Logísticos",
+        "description": "Oferecemos consultoria e execução de projetos logísticos personalizados, ajudando empresas a otimizar operações e reduzir custos.",
+        "highlights": [
+          "Desenvolvimento de estratégias eficientes",
+          "Integração de tecnologias de controle",
+          "Análise e otimização de custos"
+        ]
+      }
+    },
+    "differentials": {
+      "subtitle": "POR QUE NOS ESCOLHER",
+      "title": "Excelência em Cada Detalhe",
+      "highlight": "Nossa Marca Registrada",
+      "items": {
+        "0": {
+          "title": "Infraestrutura Completa",
+          "description": "Portos, ferrovias e armazenagem de última geração para atender todas as necessidades logísticas."
+        },
+        "1": {
+          "title": "Experiência Secular",
+          "description": "Mais de 100 anos de expertise em logística, construindo a história do transporte em Moçambique."
+        },
+        "2": {
+          "title": "Sustentabilidade e Inovação",
+          "description": "Compromisso com práticas sustentáveis e soluções inovadoras para o futuro da logística."
+        },
+        "3": {
+          "title": "Segurança Garantida",
+          "description": "Padrões rigorosos de segurança em todas as operações de transporte e armazenagem."
+        }
+      }
+    },
+    "achievements": {
+      "subtitle": "NOSSA TRAJETÓRIA",
+      "title": "Números que Refletem",
+      "highlight": "Nossa Grandeza",
+      "description": "Uma história de conquistas e desenvolvimento, contribuindo para o crescimento de Moçambique através de infraestrutura robusta e serviços de excelência.",
+      "items": {
+        "0": {
+          "number": "10+",
+          "label": "Portos Estratégicos",
+          "description": "Distribuídos ao longo da costa moçambicana"
+        },
+        "1": {
+          "number": "3.000+",
+          "label": "Quilômetros de Ferrovia",
+          "description": "Conectando as principais regiões do país"
+        },
+        "2": {
+          "number": "5.000+",
+          "label": "Colaboradores",
+          "description": "Profissionais dedicados e especializados"
+        },
+        "3": {
+          "number": "100+",
+          "label": "Anos de História",
+          "description": "De experiência e evolução contínua"
+        }
+      }
+    },
+    "contact_cta": {
+      "image_alt": "CFM Logistics Contato",
+      "title": "Precisa de uma Solução",
+      "highlight": "Logística sob Medida?",
+      "description": "Nossa equipe está pronta para desenvolver a melhor solução para sua empresa. Entre em contato e descubra como podemos ajudar.",
+      "cta": "Fale Conosco"
+    }
+  },
+  "publications": {
+    "hero": {
+      "subtitle": "PUBLICAÇÕES",
+      "title": "Notícias e Atualizações",
+      "highlight": "Mantenha-se Informado",
+      "description": "Acompanhe as últimas novidades, projetos e conquistas da CFM LOGISTICS no setor de logística e transporte.",
+      "image_alt": "CFM LOGISTICS Publicações"
+    },
+    "news": {
+      "subtitle": "ÚLTIMAS ATUALIZAÇÕES",
+      "title": "Fique por Dentro",
+      "highlight": "das Novidades"
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contactos | CFM LOGISTICS",
+      "description": "Entre em contacto com a CFM LOGISTICS - Soluções logísticas integradas em Moçambique"
+    },
+    "hero": {
+      "subtitle": "FALE CONOSCO",
+      "title": "Entre em Contacto",
+      "highlight": "com Nossa Equipe",
+      "description": "Estamos prontos para atender suas necessidades logísticas e desenvolver soluções personalizadas para sua empresa.",
+      "image_alt": "CFM LOGISTICS Contacto"
+    },
+    "office": {
+      "subtitle": "FALE CONOSCO",
+      "title": "Como Podemos Ajudar?",
+      "highlight": "Estamos à Sua Disposição",
+      "info": {
+        "phone": {
+          "title": "Telefone",
+          "info": "+258 21 427 631",
+          "description": "Disponível em horário comercial"
+        },
+        "email": {
+          "title": "Email",
+          "info": "info@cfm.co.mz",
+          "description": "Resposta em até 24 horas"
+        },
+        "address": {
+          "title": "Endereço",
+          "info": "Praça dos Trabalhadores",
+          "description": "Maputo, Moçambique"
+        },
+        "hours": {
+          "title": "Horário",
+          "info": "Segunda a Sexta",
+          "description": "8:00 - 17:00"
+        }
+      },
+      "labels": {
+        "address": "Endereço",
+        "phone": "Telefone",
+        "email": "Email",
+        "hours": "Horário"
+      }
+    },
+    "form": {
+      "subtitle": "ENVIE SUA MENSAGEM",
+      "title": "Como Podemos",
+      "highlight": "Ajudar?",
+      "description": "Preencha o formulário abaixo e nossa equipe entrará em contacto o mais breve possível.",
+      "fields": {
+        "name": "Nome Completo",
+        "email": "Email Profissional",
+        "phone": "Telefone",
+        "company": "Empresa",
+        "subject": "Assunto",
+        "message": "Mensagem",
+        "required": "Campos obrigatórios"
+      },
+      "subjects": {
+        "general": "Informações Gerais",
+        "services": "Serviços",
+        "partnership": "Parcerias",
+        "careers": "Carreiras",
+        "other": "Outros"
+      },
+      "button": "Enviar Mensagem",
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Erro ao enviar mensagem. Tente novamente."
+    },
+    "map": {
+      "subtitle": "LOCALIZAÇÃO",
+      "title": "Visite Nosso",
+      "highlight": "Escritório",
+      "description": "Encontre-nos facilmente no coração de Maputo, próximo ao Porto."
+    }
+  }
+} 
