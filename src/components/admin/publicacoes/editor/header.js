@@ -10,7 +10,7 @@ export default function EditorHeader({ isLoading, onSaveDraft, onPublish, public
                     <div className="flex items-center">
                         <Link
                             href="/admin/publicacoes"
-                            className="text-gray-500 hover:text-[#646464]"
+                            className="text-gray-500 hover:text-[#221D5A]"
                         >
                             ← Voltar
                         </Link>
@@ -45,7 +45,7 @@ export default function EditorHeader({ isLoading, onSaveDraft, onPublish, public
                         <button
                             onClick={onPublish}
                             disabled={isLoading}
-                            className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-[#646464] hover:bg-opacity-90"
+                            className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-[#221D5A] hover:bg-opacity-90"
                         >
                             {isLoading ? (
                                 <FaSpinner className="animate-spin mr-2" />

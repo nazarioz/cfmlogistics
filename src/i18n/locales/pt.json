@@ -141,6 +141,17 @@
       },
       "image_alt": "CFM LOGISTICS Office",
       "cta": "Entre em contato"
+    },
+    "organogram": {
+      "subtitle": "NOSSO ORGANOGRAMA",
+      "title": "Liderança",
+      "description": "Conheça a equipe que impulsiona a CFM LOGISTICS",
+      "highlight": "Nossa Estrutura",
+      "presidente_conselho": "Presidente do Conselho de Administração",
+      "presidente_comissao_executiva": "Presidente da Comissão Executiva",
+      "director_operacoes": "Director de Operações",
+      "director_comercial_financeiro": "Director Comercial e Financeiro",
+      "chefe_administração_recursos_humanos": "Chefe da Administração e Recursos Humanos"
     }
   },
   "footer": {
@@ -497,5 +508,19 @@
       "highlight": "Escritório",
       "description": "Encontre-nos facilmente no coração de Maputo, próximo ao Porto."
     }
+  },
+  "gallery": {
+    "hero": {
+      "subtitle": "GALERIA",
+      "title": "Nossas Imagens",
+      "highlight": "Explore",
+      "description": "Descubra nossas imagens e aprenda mais sobre nossas operações e infraestrutura logística"
+    },
+    "grid": {
+      "search_placeholder": "Pesquisar imagens...",
+      "all_albums": "Todos os Álbuns",
+      "no_images": "Nenhuma imagem encontrada",
+      "image_alt": "Imagem da galeria"
+    }
   }
-} 
+}

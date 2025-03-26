@@ -31,15 +31,15 @@ export default function ImageUploader({
         <div>
             <div
                 {...getRootProps()}
-                className={`relative border-2 border-dashed rounded-lg overflow-hidden transition-colors w-full h-[500px] ${                    
-                isDragActive ? 'border-[#646464] bg-gray-50' : 'border-gray-300'
+                className={`relative border-2 border-dashed rounded-lg overflow-hidden transition-colors w-full h-[500px] ${
+                    isDragActive ? 'border-[#221D5A] bg-gray-50' : 'border-gray-300'
                 } ${isUploading ? 'cursor-wait' : 'cursor-pointer'}`}
             >
                 <input {...getInputProps()} />
                 
                 {value ? (
                     <>
-                        <img    
+                        <img
                             src={value}
                             alt="Cover"
                             className="object-cover w-full h-full"
@@ -58,7 +58,7 @@ export default function ImageUploader({
                     <div className="absolute inset-0 flex items-center justify-center">
                         {isUploading ? (
                             <div className="flex flex-col items-center">
-                                <FaSpinner className="animate-spin text-[#646464] text-3xl mb-2" />
+                                <FaSpinner className="animate-spin text-[#221D5A] text-3xl mb-2" />
                                 <p className="text-gray-500 text-center">Carregando imagem...</p>
                             </div>
                         ) : (

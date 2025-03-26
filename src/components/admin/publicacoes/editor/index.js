@@ -15,7 +15,7 @@ import { doc, getDoc } from 'firebase/firestore';
 // Editor rico carregado dinamicamente para melhor performance
 const RichTextEditor = dynamic(() => import('./rich-text'), {
     loading: () => <div className="h-96 flex items-center justify-center">
-        <FaSpinner className="animate-spin text-[#646464] text-2xl" />
+        <FaSpinner className="animate-spin text-[#221D5A] text-2xl" />
     </div>,
     ssr: false
 });
@@ -239,7 +239,7 @@ export default function PublicacaoEditor({ id }) {
                             }))}
                             className={`w-full text-3xl font-semibold mb-4 p-2 border-b ${
                                 errors.title ? 'border-red-500' : 'border-gray-200'
-                            } focus:outline-none focus:border-[#646464]`}
+                            } focus:outline-none focus:border-[#221D5A]`}
                         />
                         {errors.title && (
                             <p className="text-red-500 text-sm mt-1">{errors.title}</p>
@@ -253,7 +253,7 @@ export default function PublicacaoEditor({ id }) {
                                 ...prev,
                                 subtitle: e.target.value
                             }))}
-                            className="w-full text-xl text-gray-600 p-2 border-b border-gray-200 focus:outline-none focus:border-[#646464]"
+                            className="w-full text-xl text-gray-600 p-2 border-b border-gray-200 focus:outline-none focus:border-[#221D5A]"
                         />
                     </div>
 

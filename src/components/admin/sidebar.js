@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FaChartBar, FaNewspaper, FaUsers, FaCog, FaUserPlus } from 'react-icons/fa';
+import { FaChartBar, FaNewspaper, FaUsers, FaCog, FaUserPlus, FaImages } from 'react-icons/fa';
 
 export default function AdminSidebar() {
     const pathname = usePathname();
@@ -9,6 +9,11 @@ export default function AdminSidebar() {
     const menuItems = [
         { label: 'Dashboard', href: '/admin', icon: <FaChartBar /> },
         { label: 'Publicações', href: '/admin/publicacoes', icon: <FaNewspaper /> },
+        {
+            label: 'Galeria de Fotos',
+            href: '/admin/galeria',
+            icon: <FaImages />,
+        },
     ];
 
     return (

@@ -39,7 +39,7 @@ export default function EditorSidebar({ publicacao, onChange }) {
                     onClick={() => setActiveTab('seo')}
                     className={`flex-1 py-3 text-sm font-medium ${
                         activeTab === 'seo' 
-                            ? 'text-[#646464] border-b-2 border-[#646464]' 
+                            ? 'text-[#221D5A] border-b-2 border-[#221D5A]' 
                             : 'text-gray-500'
                     }`}
                 >
@@ -49,7 +49,7 @@ export default function EditorSidebar({ publicacao, onChange }) {
                     onClick={() => setActiveTab('tags')}
                     className={`flex-1 py-3 text-sm font-medium ${
                         activeTab === 'tags' 
-                            ? 'text-[#646464] border-b-2 border-[#646464]' 
+                            ? 'text-[#221D5A] border-b-2 border-[#221D5A]' 
                             : 'text-gray-500'
                     }`}
                 >
@@ -59,7 +59,7 @@ export default function EditorSidebar({ publicacao, onChange }) {
                     onClick={() => setActiveTab('config')}
                     className={`flex-1 py-3 text-sm font-medium ${
                         activeTab === 'config' 
-                            ? 'text-[#646464] border-b-2 border-[#646464]' 
+                            ? 'text-[#221D5A] border-b-2 border-[#221D5A]' 
                             : 'text-gray-500'
                     }`}
                 >
