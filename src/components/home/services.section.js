@@ -15,13 +15,9 @@ export default function ServicesSection() {
             ...t('home.services.items.0', { returnObjects: true })
         },
         {
-            icon: trainImage,
+            icon: leafImage,
             ...t('home.services.items.1', { returnObjects: true })
         },
-        {
-            icon: leafImage,
-            ...t('home.services.items.2', { returnObjects: true })
-        }
     ];
 
     return (
@@ -51,7 +47,7 @@ export default function ServicesSection() {
                     </div>
                 </RevealOnScroll>
 
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-2 gap-8">
                     {services.map((service, index) => (
                         <RevealOnScroll key={index} delay={index * 0.1}>
                             <div className="bg-white p-8 rounded-xl shadow-sm group hover:shadow-lg 

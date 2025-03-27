@@ -135,7 +135,7 @@ export default function GalleryGrid() {
                                         onClick={() => setSelectedImage(image)}
                                         className="cursor-pointer group"
                                     >
-                                        <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
+                                        <div className="relative aspect-[1/1] overflow-hidden rounded-xl">
                                             {/* Overlay gradiente */}
                                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
                                             

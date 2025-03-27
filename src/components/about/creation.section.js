@@ -8,7 +8,7 @@ export default function CreationSection() {
     const { t } = useTranslation();
 
     return (
-        <section className="py-24 bg-gradient-to-b from-[#f8f9fa] to-white relative overflow-hidden">
+        <section id="origem" className="py-24 bg-gradient-to-b from-[#f8f9fa] to-white relative overflow-hidden">
             {/* Círculos decorativos */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-[#fc4c04]/5 rounded-full translate-x-1/2 -translate-y-1/2" />
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#646464]/5 rounded-full translate-y-1/2 -translate-x-1/2" />

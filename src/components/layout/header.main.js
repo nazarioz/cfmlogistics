@@ -19,8 +19,10 @@ export default function Header() {
             id: 'cfm-logistics',
             dropdown: [
                 { label: t('about.menu.who'), href: '/quem-somos' },
+                { label: t('about.menu.origin'), href: '/quem-somos#origem' },
                 { label: t('about.menu.mission'), href: '/quem-somos#missao-visao' },
-                { label: t('about.menu.objectives'), href: '/quem-somos#objectivos' },
+                { label: t('about.menu.objectives'), href: '/quem-somos#objetivos' },
+                { label: t('about.menu.timeline'), href: '/quem-somos#timeline' },
                 { label: t('about.menu.structure'), href: '/quem-somos#organograma' },
             ],
         },

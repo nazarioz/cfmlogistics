@@ -34,7 +34,7 @@ export default function Organogram() {
     ];
 
     return (
-        <section className="py-24 bg-gradient-to-b from-[#2f2f2f] to-[#646464] relative overflow-hidden">
+        <section id="organograma" className="py-24 bg-gradient-to-b from-[#2f2f2f] to-[#646464] relative overflow-hidden">
             {/* Círculos decorativos */}
             <div className="absolute left-0 w-96 h-96 bg-[#fc4c04]/5 rounded-full -translate-x-1/2" />
             <div className="absolute right-0 top-1/2 w-96 h-96 bg-[#fc4c04]/5 rounded-full translate-x-1/2" />

@@ -32,7 +32,7 @@ export default function MissionVision() {
         <section className="py-24 bg-gradient-to-b from-white to-[#f8f9fa]">
             <div className="container max-w-7xl mx-auto px-4">
                 {/* Missão e Visão */}
-                <div className="grid md:grid-cols-2 gap-16 mb-32">
+                <div id="missao-visao" className="grid md:grid-cols-2 gap-16 mb-32">
                     {/* Missão */}
                     <RevealOnScroll>
                         <div className="space-y-8">
@@ -90,7 +90,7 @@ export default function MissionVision() {
 
                 {/* Objetivos */}
                 <RevealOnScroll>
-                    <div className="text-center max-w-3xl mx-auto mb-16">
+                    <div id="objetivos" className="text-center max-w-3xl mx-auto mb-16">
                         <div className="inline-flex items-center gap-3 mb-6">
                             <span className="h-[1px] w-12 bg-[#fc4c04]" />
                             <span className="text-[#fc4c04] font-medium tracking-wider text-sm">

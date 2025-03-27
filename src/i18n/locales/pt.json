@@ -12,7 +12,9 @@
       "who": "Quem Somos",
       "mission": "Missão e Visão",
       "objectives": "Objectivos",
-      "structure": "Organograma"
+      "structure": "Organograma",
+      "origin": "Origem",
+      "timeline": "Linha do Tempo"
     },
     "metadata": {
       "title": "Quem Somos | CFM LOGISTICS",
@@ -29,7 +31,7 @@
       "highlight": "Conectando Moçambique ao Mundo",
       "content": {
         "first": "A CFM LOGISTICS é pioneira em soluções logísticas integradas, combinando experiência secular com inovação para atender às demandas de transporte e logística em Moçambique.",
-        "second": "Nosso compromisso é conectar recursos locais a mercados globais, com operações eficientes em transporte marítimo, ferroviário e armazenagem, promovendo desenvolvimento sustentável."
+        "second": "Nosso compromisso é conectar recursos locais a mercados globais, com operações eficientes em logística, promovendo desenvolvimento sustentável."
       },
       "stats": {
         "tradition": "Anos de Tradição",
@@ -42,7 +44,7 @@
       "title": "Criação e Constituição",
       "highlight": "da CFM LOGISTICS",
       "content": {
-        "first": "A CFM LOGISTICS foi criada para reforçar a infraestrutura logística de Moçambique, com foco no transporte e na indústria de petróleo e gás. Constituída como sociedade anónima de propósito específico, é integralmente detida pelos Caminhos de Ferro de Moçambique (CFM), beneficiando da sua vasta experiência ferroviária e portuária.",
+        "first": "A CFM LOGISTICS foi criada para reforçar a infraestrutura logística de Moçambique, com foco na indústria de petróleo e gás. Constituída como sociedade anónima de propósito específico, é integralmente detida pelos Caminhos de Ferro de Moçambique (CFM), beneficiando da sua vasta experiência em logística ferro portuária.",
         "second": "Com uma abordagem moderna e sustentável, a CFM LOGISTICS posiciona-se como parceiro estratégico, garantindo eficiência, segurança e competitividade na gestão de operações logísticas."
       },
       "image_alt": "CFM LOGISTICS Constituição"
@@ -52,13 +54,13 @@
         "subtitle": "NOSSA MISSÃO",
         "title": "Conectando Recursos",
         "highlight": "e Oportunidades",
-        "description": "Proporcionar soluções logísticas integradas e sustentáveis, conectando recursos locais a mercados globais, promovendo o desenvolvimento econômico e social de Moçambique."
+        "description": "Apoiar o desenvolvimento do sector da energia em Moçambique e actuar como um dos pilares de Conteúdo Local, através do fornecimento de logística, infraestruturas e serviços."
       },
       "vision": {
         "subtitle": "NOSSA VISÃO",
         "title": "Referência em",
-        "highlight": "Logística Africana",
-        "description": "Ser a referência em logística e transporte na África, reconhecida pela inovação, eficiência e impacto positivo no crescimento sustentável de Moçambique."
+        "highlight": "Logística Nacional",
+        "description": "Ser a referência nacional em logística, infraestruturas e serviços na indústria de petróleo e gás."
       },
       "objectives": {
         "subtitle": "COMPROMISSOS ESTRATÉGICOS",
@@ -66,23 +68,23 @@
         "description": "Bases fundamentais que orientam nossa excelência operacional",
         "0": {
           "title": "Infraestrutura Logística",
-          "description": "Expandir e modernizar portos, ferrovias e sistemas de armazenagem."
+          "description": "Expandir e modernizar a logística portuária e sistemas de armazenagem."
         },
         "1": {
           "title": "Sustentabilidade e Inovação",
-          "description": "Implementar práticas que reduzam o impacto ambiental e aumentem a eficiência operacional."
+          "description": "Implementar práticas sustentáveis para eficiência operacional."
         },
         "2": {
           "title": "Setor Energético",
-          "description": "Oferecer serviços especializados e personalizados para atender às necessidades do setor energético."
+          "description": "Oferecer serviços especializados para o sector energético."
         },
         "3": {
           "title": "Desenvolvimento Local",
-          "description": "Criar oportunidades econômicas e sociais para os moçambicanos, assegurando uma distribuição equitativa da riqueza."
+          "description": "Criar oportunidades de económicas e sociais de e para os moçambicanos."
         },
         "4": {
           "title": "Excelência Operacional",
-          "description": "Manter altos padrões de qualidade e segurança em todas as operações logísticas."
+          "description": "Manter altos padrões de qualidade e segurança."
         }
       }
     },
@@ -217,8 +219,9 @@
       "highlight": "Liderança em Movimento",
       "description": "Conectando recursos e oportunidades, transformando Moçambique em um polo logístico estratégico.",
       "content": {
-        "first": "A CFM LOGISTICS é uma empresa pioneira em soluções logísticas integradas, combinando tradição e inovação para impulsionar o desenvolvimento econômico de Moçambique. Com mais de um século de experiência no setor ferroviário, portuário e marítimo, a empresa lidera operações que conectam mercados regionais e globais.",
-        "second": "Focada em sustentabilidade e eficiência, a CFM LOGISTICS oferece serviços personalizados para atender às demandas das indústrias de petróleo, gás e outros setores estratégicos. Nossa missão é transformar desafios logísticos em oportunidades, promovendo progresso econômico e social."
+        "first": "A CFM LOGISTICS é uma empresa pioneira em soluções logísticas integradas, combinando tradição e inovação para impulsionar o desenvolvimento econômico de Moçambique.",
+        "second": "Focados em sustentabilidade e eficiência, oferecemos serviços personalizados para atender à demanda da indústria de petróleo, gás e outros sectores estratégicos.",
+        "third": "Nossa missão é transformar desafios logísticos em oportunidades, promovendo progresso económico e social."
       },
       "stats": [
         {
@@ -241,16 +244,12 @@
       "description": "Conheça nossa gama de serviços especializados projetados para atender suas necessidades logísticas",
       "items": [
         {
-          "title": "Transporte Marítimo",
+          "title": "Serviços Marítimos",
           "description": "Operações portuárias e logística marítima com padrões internacionais"
         },
         {
-          "title": "Transporte Ferroviário",
-          "description": "Rede ferroviária eficiente conectando pontos estratégicos"
-        },
-        {
           "title": "Soluções de Armazenagem",
-          "description": "Instalações modernas para armazenamento e manuseio de cargas"
+          "description": "Instalações modernas para armazenamento e manuseio de cargas."
         }
       ]
     },
@@ -261,8 +260,8 @@
       "description": "Serviços estratégicos para conectar recursos, pessoas e oportunidades.",
       "items": [
         {
-          "title": "Transporte Marítimo e Ferroviário",
-          "description": "Movemos cargas de forma eficiente pelos portos e ferrovias de Moçambique, conectando regiões e mercados globais."
+          "title": "Serviços Marítimos",
+          "description": "Manuseamos cargas de forma eficiente pelos de Moçambique."
         },
         {
           "title": "Armazenagem e Logística Integrada",
@@ -270,11 +269,11 @@
         },
         {
           "title": "Serviços Personalizados para Petróleo e Gás",
-          "description": "Atendemos demandas específicas da indústria energética com expertise e infraestrutura moderna."
+          "description": "Atendimento especializado para a indústria energética com infraestrutura moderna."
         },
         {
           "title": "Gestão de Projetos Logísticos",
-          "description": "Planejamos e executamos operações logísticas complexas, adaptadas às necessidades de cada cliente."
+          "description": "Planeamento e execução de operações logísticas adaptadas às necessidades de cada cliente."
         }
       ]
     },
@@ -313,21 +312,20 @@
       "image_alt": "CFM LOGISTICS Serviços"
     },
     "introduction": {
-      "subtitle": "NOSSA EXPERTISE",
+      "subtitle": "NOSSO EXPERTISE",
       "title": "Logística Inteligente para",
       "highlight": "Indústrias Estratégicas",
-      "description": "A CFM LOGISTICS oferece soluções logísticas completas, projetadas para atender às necessidades de transporte, armazenagem e manuseio de cargas em diversos setores. Com infraestrutura robusta e expertise secular, conectamos negócios locais a mercados globais, sempre com eficiência e compromisso com a sustentabilidade."
+      "description": "A CFM LOGISTICS oferece soluções logísticas completas, projectadas para atender às necessidades de transporte, armazenagem e manuseio de cargas em diversos sectores. Com infraestrutura robusta e expertise secular, conectamos negócios locais a mercados globais, sempre com eficiência e compromisso com a sustentabilidade."
     },
     "list": {
       "subtitle": "NOSSOS SERVIÇOS",
       "title": "Soluções Completas para",
       "highlight": "Sua Cadeia Logística",
       "0": {
-        "title": "Transporte Marítimo e Ferroviário",
-        "description": "Com uma extensa rede ferroviária e portos estratégicos, garantimos soluções de transporte multimodal que reduzem custos e aumentam a eficiência no deslocamento de cargas.",
+        "title": "Serviços Marítimos",
+        "description": "Com portos estratégicos, garantimos soluções que reduzem custos e aumentam a eficiência no deslocamento de cargas.",
         "highlights": [
-          "Conectividade entre portos, ferrovias e estradas",
-          "Transporte seguro de cargas pesadas e granéis",
+          "Manuseio seguro de cargas pesadas e granéis",
           "Soluções sob medida para diferentes setores"
         ]
       },
@@ -341,8 +339,8 @@
         ]
       },
       "2": {
-        "title": "Serviços para Petróleo e Gás",
-        "description": "Com expertise no setor de energia, atendemos operações logísticas para transporte, armazenagem e manuseio de derivados de petróleo e gás.",
+        "title": "Serviços para Indústria de Petróleo e Gás",
+        "description": "Com expertise no setor de energia, atendemos operações logísticas para transporte, armazenagem e manuseio de cargas da indústria de petróleo e gás.",
         "highlights": [
           "Infraestrutura especializada para combustíveis",
           "Operações seguras e certificadas para GNL",
@@ -366,19 +364,19 @@
       "items": {
         "0": {
           "title": "Infraestrutura Completa",
-          "description": "Portos, ferrovias e armazenagem de última geração para atender todas as necessidades logísticas."
+          "description": "Portos e armazenagem de última geração."
         },
         "1": {
           "title": "Experiência Secular",
-          "description": "Mais de 100 anos de expertise em logística, construindo a história do transporte em Moçambique."
+          "description": "Herdamos mais de 100 anos de expertise em logística."
         },
         "2": {
           "title": "Sustentabilidade e Inovação",
-          "description": "Compromisso com práticas sustentáveis e soluções inovadoras para o futuro da logística."
+          "description": "Compromisso com práticas sustentáveis."
         },
         "3": {
           "title": "Segurança Garantida",
-          "description": "Padrões rigorosos de segurança em todas as operações de transporte e armazenagem."
+          "description": "Padrões rigorosos de segurança."
         }
       }
     },

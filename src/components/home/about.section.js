@@ -42,6 +42,9 @@ export default function AboutSection() {
                                 <p>
                                     {t('home.about.content.second')}
                                 </p>
+                                <p>
+                                    {t('home.about.content.third')}
+                                </p>
                             </div>
                         </RevealOnScroll>
                     </div>

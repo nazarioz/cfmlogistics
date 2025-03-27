@@ -34,7 +34,7 @@ export default function TimelineSection() {
     ];
 
     return (
-        <section className="pb-24 pt-12 bg-gradient-to-b from-[#f8f9fa] to-white">
+        <section id="timeline" className="pb-24 pt-12 bg-gradient-to-b from-[#f8f9fa] to-white">
             <div className="container max-w-7xl mx-auto px-4">
                 {/* Cabeçalho */}
                 <RevealOnScroll>

@@ -14,19 +14,15 @@ export default function ImageModal({ image, onClose }) {
                 
                 <div className="relative aspect-[16/9]">
                     <img
-                        src={image.image}
-                        alt={image.title}
+                        src={image.url}
                         className="object-contain w-full h-full"
                     />
                 </div>
                 
                 <div className="p-6">
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                        {image.title}
+                        {image.albumName}
                     </h3>
-                    <p className="text-gray-600">
-                        {image.description}
-                    </p>
                 </div>
             </div>
         </div>

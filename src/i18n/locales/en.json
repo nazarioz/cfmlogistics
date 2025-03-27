@@ -3,16 +3,18 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
-    "news": "News",
+    "news": "Publications",
     "contact": "Contact",
     "gallery": "Gallery"
   },
   "about": {
     "menu": {
       "who": "Who We Are",
-      "mission": "Mission & Vision",
+      "mission": "Mission and Vision",
       "objectives": "Objectives",
-      "structure": "Structure"
+      "structure": "Organization Chart",
+      "origin": "Origin",
+      "timeline": "Timeline"
     },
     "metadata": {
       "title": "About Us | CFM LOGISTICS",
@@ -28,8 +30,8 @@
       "title": "Leadership in Logistics",
       "highlight": "Connecting Mozambique to the World",
       "content": {
-        "first": "CFM LOGISTICS is a pioneer in integrated logistics solutions, combining century-old experience with innovation to meet transport and logistics demands in Mozambique.",
-        "second": "Our commitment is to connect local resources to global markets, with efficient operations in maritime, rail and warehousing, promoting sustainable development."
+        "first": "CFM LOGISTICS is a pioneer in integrated logistics solutions, combining century-old experience with innovation to meet transportation and logistics demands in Mozambique.",
+        "second": "Our commitment is to connect local resources to global markets, with efficient logistics operations, promoting sustainable development."
       },
       "stats": {
         "tradition": "Years of Tradition",
@@ -42,8 +44,8 @@
       "title": "Creation and Constitution",
       "highlight": "of CFM LOGISTICS",
       "content": {
-        "first": "CFM LOGISTICS was created to strengthen Mozambique's logistics infrastructure, focusing on transportation and the oil and gas industry. Established as a special purpose corporation, it is wholly owned by Mozambique Railways (CFM), benefiting from its vast railway and port experience.",
-        "second": "With a modern and sustainable approach, CFM LOGISTICS positions itself as a strategic partner, ensuring efficiency, safety and competitiveness in logistics operations management."
+        "first": "CFM LOGISTICS was created to strengthen Mozambique's logistics infrastructure, focusing on the oil and gas industry. Established as a special purpose corporation, it is wholly owned by Mozambique Railways (CFM), benefiting from its vast experience in port and railway logistics.",
+        "second": "With a modern and sustainable approach, CFM LOGISTICS positions itself as a strategic partner, ensuring efficiency, safety, and competitiveness in logistics operations management."
       },
       "image_alt": "CFM LOGISTICS Constitution"
     },
@@ -52,13 +54,13 @@
         "subtitle": "OUR MISSION",
         "title": "Connecting Resources",
         "highlight": "and Opportunities",
-        "description": "To provide integrated and sustainable logistics solutions, connecting local resources to global markets, promoting Mozambique's economic and social development."
+        "description": "To support the development of the energy sector in Mozambique and act as one of the pillars of Local Content through the provision of logistics, infrastructure, and services."
       },
       "vision": {
         "subtitle": "OUR VISION",
         "title": "Reference in",
-        "highlight": "African Logistics",
-        "description": "To be the reference in logistics and transportation in Africa, recognized for innovation, efficiency and positive impact on Mozambique's sustainable growth."
+        "highlight": "National Logistics",
+        "description": "To be the national reference in logistics, infrastructure, and services in the oil and gas industry."
       },
       "objectives": {
         "subtitle": "STRATEGIC COMMITMENTS",
@@ -66,23 +68,23 @@
         "description": "Fundamental bases that guide our operational excellence",
         "0": {
           "title": "Logistics Infrastructure",
-          "description": "Expand and modernize ports, railways and storage systems."
+          "description": "Expand and modernize port logistics and storage systems."
         },
         "1": {
           "title": "Sustainability and Innovation",
-          "description": "Implement practices that reduce environmental impact and increase operational efficiency."
+          "description": "Implement sustainable practices for operational efficiency."
         },
         "2": {
           "title": "Energy Sector",
-          "description": "Offer specialized and customized services to meet the needs of the energy sector."
+          "description": "Offer specialized services for the energy sector."
         },
         "3": {
           "title": "Local Development",
-          "description": "Create economic and social opportunities for Mozambicans, ensuring equitable distribution of wealth."
+          "description": "Create economic and social opportunities by and for Mozambicans."
         },
         "4": {
           "title": "Operational Excellence",
-          "description": "Maintain high standards of quality and safety in all logistics operations."
+          "description": "Maintain high standards of quality and safety."
         }
       }
     },
@@ -106,14 +108,22 @@
         "3": {
           "title": "Start of Maritime Operations in Nacala",
           "description": "Expansion of maritime operations to the Port of Nacala, consolidating CFM Logistics' presence in one of the country's main logistics corridors and reinforcing its capacity to meet international demands."
+        },
+        "4": {
+          "title": "Operations at the Port of Nacala",
+          "description": "Strategic operations to meet the demands of the oil and gas sector, maximizing maritime and port infrastructure."
+        },
+        "5": {
+          "title": "Strategic Partnerships",
+          "description": "Active participation in logistics and support for major projects in the energy sector, including projects such as Coral Sul FLNG, Rovuma LNG, and Golfinho/Atum LNG."
         }
       }
     },
     "banner": {
       "image_alt": "CFM Logistics Infrastructure",
       "title": "Logistics that Transform.",
-      "highlight": "Connections that Drive.",
-      "description": "With century-old expertise, robust infrastructure and commitment to sustainability, CFM LOGISTICS connects Mozambique to the world and drives economic progress.",
+      "highlight": "Connections that Drive Progress.",
+      "description": "With century-old expertise, robust infrastructure, and commitment to sustainability, CFM LOGISTICS connects Mozambique to the world and drives economic progress.",
       "cta": "Learn more about our integrated solutions"
     },
     "office": {
@@ -124,7 +134,7 @@
         "location": "Maputo City",
         "phone": "+258 21 427 631",
         "email": "info@cfm.co.mz",
-        "address": "Workers Square, Maputo, Mozambique"
+        "address": "Praça dos Trabalhadores, Maputo, Mozambique"
       },
       "labels": {
         "phone": "Phone",
@@ -135,12 +145,12 @@
       "cta": "Contact us"
     },
     "organogram": {
-      "subtitle": "OUR ORGANOGRAM",
-      "title": "Our Leadership",
-      "description": "Meet the team that drives CFM LOGISTICS forward",
+      "subtitle": "OUR ORGANIZATION CHART",
+      "title": "Leadership",
+      "description": "Meet the team that drives CFM LOGISTICS",
       "highlight": "Our Structure",
-      "presidente_conselho": "President of the Board of Directors",
-      "presidente_comissao_executiva": "President of the Executive Commission",
+      "presidente_conselho": "Chairman of the Board",
+      "presidente_comissao_executiva": "Chief Executive Officer",
       "director_operacoes": "Operations Director",
       "director_comercial_financeiro": "Commercial and Financial Director",
       "chefe_administração_recursos_humanos": "Head of Administration and Human Resources"
@@ -152,7 +162,7 @@
     "contact": "Contact Us",
     "social": "Follow Us",
     "rights": "All rights reserved",
-    "address": "Workers Square, Maputo, Mozambique",
+    "address": "Praça dos Trabalhadores, Maputo, Mozambique",
     "phone": "Phone",
     "email": "Email"
   },
@@ -181,8 +191,8 @@
           "description": "Complete solutions for your logistics chain"
         },
         {
-          "title": "Maritime and Rail Transport",
-          "subtitle": "Efficiency in Every Journey",
+          "title": "Maritime and Railway Transport",
+          "subtitle": "Efficiency in Every Route",
           "description": "Strategic infrastructure for your cargo"
         },
         {
@@ -209,9 +219,24 @@
       "highlight": "Leadership in Motion",
       "description": "Connecting resources and opportunities, transforming Mozambique into a strategic logistics hub.",
       "content": {
-        "first": "CFM LOGISTICS is a pioneer in integrated logistics solutions, combining tradition and innovation to drive Mozambique's economic development. With over a century of experience in rail, port and maritime sectors, the company leads operations connecting regional and global markets.",
-        "second": "Focused on sustainability and efficiency, CFM LOGISTICS offers customized services to meet the demands of oil, gas and other strategic sectors. Our mission is to transform logistics challenges into opportunities, promoting economic and social progress."
-      }
+        "first": "CFM LOGISTICS is a pioneer company in integrated logistics solutions, combining tradition and innovation to drive Mozambique's economic development.",
+        "second": "Focused on sustainability and efficiency, we offer personalized services to meet the demands of the oil, gas, and other strategic sectors.",
+        "third": "Our mission is to transform logistics challenges into opportunities, promoting economic and social progress."
+      },
+      "stats": [
+        {
+          "value": "75+",
+          "label": "Years of Experience"
+        },
+        {
+          "value": "1000+",
+          "label": "Employees"
+        },
+        {
+          "value": "24/7",
+          "label": "Operations"
+        }
+      ]
     },
     "services": {
       "subtitle": "OUR SERVICES",
@@ -219,16 +244,12 @@
       "description": "Discover our range of specialized services designed to meet your logistics needs",
       "items": [
         {
-          "title": "Maritime Transport",
+          "title": "Maritime Services",
           "description": "Port operations and maritime logistics with international standards"
         },
         {
-          "title": "Rail Transport",
-          "description": "Efficient rail network connecting strategic points"
-        },
-        {
           "title": "Storage Solutions",
-          "description": "Modern facilities for cargo storage and handling"
+          "description": "Modern facilities for cargo storage and handling."
         }
       ]
     },
@@ -236,23 +257,23 @@
       "subtitle": "OUR SOLUTIONS",
       "title": "Solutions that Move",
       "highlight": "Mozambique",
-      "description": "Strategic services to connect resources, people and opportunities.",
+      "description": "Strategic services to connect resources, people, and opportunities.",
       "items": [
         {
-          "title": "Maritime and Rail Transport",
-          "description": "We move cargo efficiently through Mozambique's ports and railways, connecting regions and global markets."
+          "title": "Maritime Services",
+          "description": "We handle cargo efficiently through Mozambique's ports."
         },
         {
           "title": "Storage and Integrated Logistics",
           "description": "Complete solutions for cargo storage and handling, ensuring efficiency and safety."
         },
         {
-          "title": "Customized Services for Oil and Gas",
-          "description": "We meet specific demands of the energy industry with expertise and modern infrastructure."
+          "title": "Customized Oil and Gas Services",
+          "description": "Specialized service for the energy industry with modern infrastructure."
         },
         {
           "title": "Logistics Project Management",
-          "description": "We plan and execute complex logistics operations, tailored to each client's needs."
+          "description": "Planning and execution of logistics operations tailored to each client's needs."
         }
       ]
     },
@@ -287,31 +308,30 @@
       "subtitle": "OUR SOLUTIONS",
       "title": "Integrated Logistics Solutions",
       "highlight": "for a Connected Future",
-      "description": "From rail to maritime transport, from warehousing to specialized logistics, we ensure efficiency and innovation to connect Mozambique to the world.",
+      "description": "From railway to maritime transport, from storage to specialized logistics, we ensure efficiency and innovation to connect Mozambique to the world.",
       "image_alt": "CFM LOGISTICS Services"
     },
     "introduction": {
       "subtitle": "OUR EXPERTISE",
       "title": "Smart Logistics for",
       "highlight": "Strategic Industries",
-      "description": "CFM LOGISTICS offers complete logistics solutions, designed to meet the needs of transportation, storage and cargo handling in various sectors. With robust infrastructure and century-old expertise, we connect local businesses to global markets, always with efficiency and commitment to sustainability."
+      "description": "CFM LOGISTICS offers complete logistics solutions, designed to meet the needs of transportation, storage, and cargo handling in various sectors. With robust infrastructure and century-old expertise, we connect local businesses to global markets, always with efficiency and commitment to sustainability."
     },
     "list": {
       "subtitle": "OUR SERVICES",
       "title": "Complete Solutions for",
       "highlight": "Your Logistics Chain",
       "0": {
-        "title": "Maritime and Rail Transport",
-        "description": "With an extensive rail network and strategic ports, we ensure multimodal transport solutions that reduce costs and increase efficiency in cargo movement.",
+        "title": "Maritime Services",
+        "description": "With strategic ports, we ensure solutions that reduce costs and increase efficiency in cargo movement.",
         "highlights": [
-          "Connectivity between ports, railways and roads",
-          "Safe transport of heavy cargo and bulk",
+          "Safe handling of heavy cargo and bulk",
           "Tailored solutions for different sectors"
         ]
       },
       "1": {
         "title": "Storage and Integrated Logistics",
-        "description": "Our storage terminals offer modern infrastructure to ensure safety, efficiency and total control over cargo handling.",
+        "description": "Our storage terminals offer modern infrastructure to ensure safety, efficiency, and total control over cargo handling.",
         "highlights": [
           "High-capacity warehouses with advanced technology",
           "Real-time monitoring for greater control",
@@ -319,8 +339,8 @@
         ]
       },
       "2": {
-        "title": "Oil and Gas Services",
-        "description": "With expertise in the energy sector, we handle logistics operations for transportation, storage and handling of oil and gas derivatives.",
+        "title": "Oil and Gas Industry Services",
+        "description": "With expertise in the energy sector, we handle logistics operations for transportation, storage, and handling of oil and gas industry cargo.",
         "highlights": [
           "Specialized infrastructure for fuels",
           "Safe and certified LNG operations",
@@ -344,19 +364,19 @@
       "items": {
         "0": {
           "title": "Complete Infrastructure",
-          "description": "State-of-the-art ports, railways and storage to meet all logistics needs."
+          "description": "State-of-the-art ports and storage."
         },
         "1": {
           "title": "Century-old Experience",
-          "description": "Over 100 years of logistics expertise, building the history of transportation in Mozambique."
+          "description": "We inherit over 100 years of logistics expertise."
         },
         "2": {
           "title": "Sustainability and Innovation",
-          "description": "Commitment to sustainable practices and innovative solutions for the future of logistics."
+          "description": "Commitment to sustainable practices."
         },
         "3": {
           "title": "Guaranteed Safety",
-          "description": "Rigorous safety standards in all transport and storage operations."
+          "description": "Rigorous safety standards."
         }
       }
     },
@@ -364,7 +384,7 @@
       "subtitle": "OUR JOURNEY",
       "title": "Numbers that Reflect",
       "highlight": "Our Greatness",
-      "description": "A history of achievements and development, contributing to Mozambique's growth through robust infrastructure and excellence in services.",
+      "description": "A history of achievements and development, contributing to Mozambique's growth through robust infrastructure and excellent services.",
       "items": {
         "0": {
           "number": "10+",
@@ -401,7 +421,7 @@
       "subtitle": "PUBLICATIONS",
       "title": "News and Updates",
       "highlight": "Stay Informed",
-      "description": "Follow the latest news, projects and achievements of CFM LOGISTICS in the logistics and transport sector.",
+      "description": "Follow the latest news, projects, and achievements of CFM LOGISTICS in the logistics and transport sector.",
       "image_alt": "CFM LOGISTICS Publications"
     },
     "news": {
@@ -439,13 +459,13 @@
         },
         "address": {
           "title": "Address",
-          "info": "Workers Square",
+          "info": "Praça dos Trabalhadores",
           "description": "Maputo, Mozambique"
         },
         "hours": {
           "title": "Hours",
           "info": "Monday to Friday",
-          "description": "8:00 AM - 5:00 PM"
+          "description": "8:00 - 17:00"
         }
       },
       "labels": {
