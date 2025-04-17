@@ -2,6 +2,7 @@
 import { useTranslation } from 'react-i18next';
 import { RevealOnScroll, StaggerChildren } from '@/components/ui/reveal.animation';
 import { LiaIndustrySolid, LiaShipSolid, LiaUserTieSolid, LiaAnchorSolid } from "react-icons/lia";
+import Link from 'next/link';
 
 export default function TimelineSection() {
     const { t } = useTranslation();
@@ -11,25 +12,29 @@ export default function TimelineSection() {
             year: "24/08/2023",
             title: t('about.timeline.events.0.title'),
             description: t('about.timeline.events.0.description'),
-            icon: <LiaIndustrySolid className="w-8 h-8" />
+            icon: <LiaIndustrySolid className="w-8 h-8" />,
+            link: "/about#timeline"
         },
         {
             year: "03/11/2023",
             title: t('about.timeline.events.1.title'),
             description: t('about.timeline.events.1.description'),
-            icon: <LiaUserTieSolid className="w-8 h-8" />
+            icon: <LiaUserTieSolid className="w-8 h-8" />,
+            link: "/about#timeline"
         },
         {
             year: "01/01/2024",
             title: t('about.timeline.events.2.title'),
             description: t('about.timeline.events.2.description'),
-            icon: <LiaShipSolid className="w-8 h-8" />
+            icon: <LiaShipSolid className="w-8 h-8" />,
+            link: "/about#timeline"
         },
         {
             year: "13/07/2024",
             title: t('about.timeline.events.3.title'),
             description: t('about.timeline.events.3.description'),
-            icon: <LiaAnchorSolid className="w-8 h-8" />
+            icon: <LiaAnchorSolid className="w-8 h-8" />,
+            link: "/about#timeline"
         }
     ];
 
@@ -100,9 +105,25 @@ export default function TimelineSection() {
                                                 </div>
 
                                                 {/* Descrição */}
-                                                <p className="text-gray-600 leading-relaxed pl-[3.25rem]">
+                                                <p className="text-gray-600 leading-relaxed pl-[3.25rem] mb-6">
                                                     {event.description}
                                                 </p>
+
+                                                {/* Botão Ver Mais */}
+                                                <Link 
+                                                    href={event.link}
+                                                    className="inline-flex items-center gap-2 text-[#fc4c04] font-medium
+                                                               opacity-0 group-hover:opacity-100 transition-all duration-300
+                                                               hover:gap-3 pl-[3.25rem]"
+                                                >
+                                                    {t('cta.learn_more')}
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" 
+                                                         viewBox="0 0 20 20" fill="currentColor">
+                                                        <path fillRule="evenodd" 
+                                                              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" 
+                                                              clipRule="evenodd" />
+                                                    </svg>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>

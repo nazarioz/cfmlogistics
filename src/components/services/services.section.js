@@ -21,6 +21,7 @@ export default function Services() {
                 t('services.list.0.highlights.1'),
                 t('services.list.0.highlights.2')
             ],
+            href: 'servicos-mariticos',
             image: ImageService1
         },
         {
@@ -32,6 +33,7 @@ export default function Services() {
                 t('services.list.1.highlights.1'),
                 t('services.list.1.highlights.2')
             ],
+            href: 'servicos-armazenagem',
             image: ImageService2
         },
         {
@@ -43,6 +45,7 @@ export default function Services() {
                 t('services.list.2.highlights.1'),
                 t('services.list.2.highlights.2')
             ],
+            href: 'petroleo-gas',
             image: ImageService3
         },
         {
@@ -54,6 +57,7 @@ export default function Services() {
                 t('services.list.3.highlights.1'),
                 t('services.list.3.highlights.2')
             ],
+            href: 'servicos-projectos',
             image: ImageService4
         }
     ];
@@ -80,7 +84,7 @@ export default function Services() {
                 <StaggerChildren>
                     {services.map((service, index) => (
                         <RevealOnScroll key={index} delay={index * 0.1}>
-                            <div className={`flex flex-col lg:flex-row gap-8 mb-24 last:mb-0 items-center
+                            <div id={service.href} className={`flex flex-col lg:flex-row gap-8 mb-24 last:mb-0 items-center
                                           ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
                                 {/* Imagem */}
                                 <div className="lg:w-1/2 relative">

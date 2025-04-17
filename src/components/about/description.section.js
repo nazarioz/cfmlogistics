@@ -37,14 +37,14 @@ export default function Description() {
                                 </span>
                             </h2>
 
-                            <div className="relative w-48 h-48 mx-auto md:mx-0">
+                            <div className="relative w-64 h-48 mx-auto md:mx-0">
                                 <div className="absolute inset-0 bg-white/10 rounded-lg transform rotate-6 transition-transform group-hover:rotate-12" />
                                 <div className="relative bg-white/5 backdrop-blur-sm rounded-lg p-6 transform transition-transform group-hover:scale-105">
                                     <Image
                                         src={logo}
                                         alt="CFM LOGISTICS"
                                         fill
-                                        className="object-contain brightness-0 invert p-4"
+                                        className="object-contain brightness-0 invert p-4 w-full h-full"
                                     />
                                 </div>
                             </div>
@@ -65,24 +65,12 @@ export default function Description() {
                             </div>
 
                             <div className="bg-white/5 backdrop-blur-sm rounded-lg p-8">
-                                <p className="text-white/80 leading-relaxed">
+                                <p className="text-white/90 text-lg leading-relaxed relative">
                                     {t('about.description.content.second')}
                                 </p>
                             </div>
 
-                            {/* Stats */}
-                            <div className="grid grid-cols-3 gap-4 mt-8">
-                                {stats.map((stat, index) => (
-                                    <div key={index} className="text-center">
-                                        <div className="text-[#fc4c04] text-2xl font-bold mb-1">
-                                            {stat.number}
-                                        </div>
-                                        <div className="text-white/70 text-sm">
-                                            {stat.label}
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
+                            
                         </div>
                     </RevealOnScroll>
                 </div>

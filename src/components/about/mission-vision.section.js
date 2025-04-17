@@ -5,26 +5,22 @@ import { RevealOnScroll, StaggerChildren } from '@/components/ui/reveal.animatio
 export default function MissionVision() {
     const { t } = useTranslation();
 
-    const objectives = [
+    const values = [
         {
-            title: t('about.mission_vision.objectives.0.title'),
-            description: t('about.mission_vision.objectives.0.description')
+            title: t('about.mission_vision.values.items.0.title'),
+            description: t('about.mission_vision.values.items.0.description')
         },
         {
-            title: t('about.mission_vision.objectives.1.title'),
-            description: t('about.mission_vision.objectives.1.description')
+            title: t('about.mission_vision.values.items.1.title'),
+            description: t('about.mission_vision.values.items.1.description')
         },
         {
-            title: t('about.mission_vision.objectives.2.title'),
-            description: t('about.mission_vision.objectives.2.description')
+            title: t('about.mission_vision.values.items.2.title'),
+            description: t('about.mission_vision.values.items.2.description')
         },
         {
-            title: t('about.mission_vision.objectives.3.title'),
-            description: t('about.mission_vision.objectives.3.description')
-        },
-        {
-            title: t('about.mission_vision.objectives.4.title'),
-            description: t('about.mission_vision.objectives.4.description')
+            title: t('about.mission_vision.values.items.3.title'),
+            description: t('about.mission_vision.values.items.3.description')
         }
     ];
 
@@ -88,66 +84,76 @@ export default function MissionVision() {
                     </RevealOnScroll>
                 </div>
 
-                {/* Objetivos */}
+                {/* Valores */}
                 <RevealOnScroll>
-                    <div id="objetivos" className="text-center max-w-3xl mx-auto mb-16">
+                    <div id="valores" className="text-center max-w-3xl mx-auto mb-16">
                         <div className="inline-flex items-center gap-3 mb-6">
                             <span className="h-[1px] w-12 bg-[#fc4c04]" />
                             <span className="text-[#fc4c04] font-medium tracking-wider text-sm">
-                                {t('about.mission_vision.objectives.subtitle')}
+                                {t('about.mission_vision.values.subtitle')}
                             </span>
                             <span className="h-[1px] w-12 bg-[#fc4c04]" />
                         </div>
                         <h2 className="text-3xl md:text-4xl font-bold text-[#646464] mb-4">
-                            {t('about.mission_vision.objectives.title')}
+                            {t('about.mission_vision.values.title')}
+                            <span className="block font-light">{t('about.mission_vision.values.highlight')}</span>
                         </h2>
                         <p className="text-gray-600 text-lg font-light">
-                            {t('about.mission_vision.objectives.description')}
+                            {t('about.mission_vision.values.description')}
                         </p>
                     </div>
 
-                    <StaggerChildren className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {objectives.map((objective, index) => (
-                            <RevealOnScroll key={index} delay={index * 0.1}>
-                                <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg 
-                                              transition-all duration-300 group relative overflow-hidden
-                                              border border-gray-100">
-                                    {/* Decorative elements */}
-                                    <div className="absolute -right-8 -top-8 w-24 h-24 bg-[#fc4c04]/5 
-                                                  rounded-full group-hover:scale-150 transition-transform duration-500" />
-                                    <div className="absolute -left-16 -bottom-16 w-32 h-32 bg-[#646464]/5 
-                                                  rounded-full opacity-0 group-hover:opacity-100 
-                                                  transition-all duration-500" />
-                                    
-                                    {/* Número do objetivo */}
-                                    <div className="text-[#fc4c04]/20 text-6xl font-bold absolute top-4 right-4 
-                                                  group-hover:scale-125 transition-transform duration-300">
-                                        {(index + 1).toString().padStart(2, '0')}
-                                    </div>
+                    <div className="relative">
+                        {/* Background decorative elements */}
+                        <div className="absolute inset-0 overflow-hidden">
+                            <div className="absolute -top-32 -left-32 w-64 h-64 bg-[#fc4c04]/5 rounded-full blur-3xl" />
+                            <div className="absolute -bottom-32 -right-32 w-64 h-64 bg-[#646464]/5 rounded-full blur-3xl" />
+                        </div>
 
-                                    {/* Conteúdo */}
-                                    <div className="relative">
-                                        {/* Linha decorativa */}
-                                        <div className="w-12 h-1 bg-gradient-to-r from-[#fc4c04] to-[#fc4c04]/20 
-                                                      mb-6 group-hover:w-16 transition-all duration-300" />
-                                        
-                                        <h3 className="text-xl font-bold text-[#646464] mb-4 group-hover:text-[#fc4c04] 
-                                                     transition-colors duration-300">
-                                            {objective.title}
-                                        </h3>
-                                        
-                                        <p className="text-gray-600 leading-relaxed">
-                                            {objective.description}
-                                        </p>
+                        <div className="relative grid md:grid-cols-2 gap-8">
+                            {values.map((value, index) => (
+                                <RevealOnScroll key={index} delay={index * 0.1}>
+                                    <div className="group relative">
+                                        {/* Card container */}
+                                        <div className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl 
+                                                      transition-all duration-500 relative overflow-hidden
+                                                      border border-gray-100 h-full">
+                                            {/* Hover effect background */}
+                                            <div className="absolute inset-0 bg-gradient-to-br from-[#fc4c04]/5 to-transparent 
+                                                          opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                                            
+                                            {/* Content */}
+                                            <div className="relative">
 
-                                        {/* Hover indicator */}
-                                        <div className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#fc4c04] 
-                                                      group-hover:w-16 transition-all duration-300" />
+                                                {/* Title and description */}
+                                                <h3 className="text-2xl font-bold text-[#646464] mb-4 
+                                                             group-hover:text-[#fc4c04] transition-colors duration-300">
+                                                    {value.title}
+                                                </h3>
+                                                
+                                                <p className="text-gray-600 leading-relaxed">
+                                                    {value.description}
+                                                </p>
+
+                                                {/* Bottom line indicator */}
+                                                <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r 
+                                                              from-[#fc4c04] to-transparent opacity-0 
+                                                              group-hover:opacity-100 transition-opacity duration-300" />
+                                            </div>
+                                        </div>
+
+                                        {/* Floating decorative elements */}
+                                        <div className="absolute -top-4 -right-4 w-8 h-8 bg-[#fc4c04]/10 
+                                                      rounded-full group-hover:scale-150 transition-transform 
+                                                      duration-500" />
+                                        <div className="absolute -bottom-4 -left-4 w-8 h-8 bg-[#646464]/10 
+                                                      rounded-full group-hover:scale-150 transition-transform 
+                                                      duration-500" />
                                     </div>
-                                </div>
-                            </RevealOnScroll>
-                        ))}
-                    </StaggerChildren>
+                                </RevealOnScroll>
+                            ))}
+                        </div>
+                    </div>
                 </RevealOnScroll>
             </div>
         </section>

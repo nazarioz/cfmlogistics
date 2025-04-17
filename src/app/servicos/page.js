@@ -17,7 +17,6 @@ export default function ServicosPage() {
             <Introduction />
             <Services />
             <Differentials />
-            <Achievements />
             <ContactCTA />
         </main>
     );

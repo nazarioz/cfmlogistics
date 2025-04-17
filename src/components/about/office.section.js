@@ -11,7 +11,7 @@ export default function OfficeSection() {
     const contactInfo = {
         location: "Maputo",
         phone: "(+258) 849704924 / (+258) 833022610",
-        email: "info@cfm.co.mz",
+        email: "cfmlogistics@logistics.cfm.co.mz",
         address: "Maputo Business Tower - Rua dos Desportistas, n.º 480, 6° andar"
     };
 

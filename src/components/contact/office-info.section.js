@@ -11,21 +11,21 @@ export default function OfficeInfo() {
             city: "Maputo",
             address: "Edifício Maputo Business Tower - Rua dos Desportistas, n.º 480, 6° andar",
             phone: "(+258) 849704924 / (+258) 833022610",
-            email: "info@cfm.co.mz",
+            email: "cfmlogistics@logistics.cfm.co.mz",
             hours: "Segunda a Sexta, 8:00 - 17:00"
         },
         {
             city: "Nacala",
             address: "Rua do Porto, n.º 70, Cidade Baixa",
             phone: "(+258) 849704924 / (+258) 833022610",
-            email: "info@cfm.co.mz",
+            email: "cfmlogistics@logistics.cfm.co.mz",
             hours: "Segunda a Sexta, 8:00 - 17:00"
         },
         {
             city: "Pemba",
             address: "Rua do Porto, Bairro Cimento",
             phone: "(+258) 849704924 / (+258) 833022610",
-            email: "info@cfm.co.mz",
+            email: "cfmlogistics@logistics.cfm.co.mz",
             hours: "Segunda a Sexta, 8:00 - 17:00"
         }
     ];

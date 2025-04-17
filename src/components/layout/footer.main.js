@@ -16,10 +16,10 @@ export default function Footer() {
     ];
 
     const servicesLinks = [
-        { label: 'Transporte Marítimo', href: '/servicos#maritimo' },
-        { label: 'Transporte Ferroviário', href: '/servicos#ferroviario' },
-        { label: 'Armazenagem', href: '/servicos#armazenagem' },
-        { label: 'Petróleo e Gás', href: '/servicos#petroleo-gas' },
+        { label: t('services.list.0.title'), href: '/servicos#servicos-mariticos' },
+        { label: t('services.list.1.title'), href: '/servicos#servicos-armazenagem' },
+        { label: t('services.list.2.title'), href: '/servicos#petroleo-gas' },
+        { label: t('services.list.3.title'), href: '/servicos#servicos-projectos' },
     ];
 
     const socialLinks = [
@@ -44,14 +44,14 @@ export default function Footer() {
                             />
                         </Link>
                         <div className="space-y-4 text-gray-300">
-                            <p>{t('footer.address')}</p>
+                            <p>Edifício Maputo Business Tower - Rua dos Desportistas, n.º 480, 6° andar</p>
                             <p>
                                 <span className="block text-sm text-gray-400">{t('footer.phone')}</span>
-                                +258 21 427 631
+                                (+258) 849704924 / (+258) 833022610
                             </p>
                             <p>
                                 <span className="block text-sm text-gray-400">{t('footer.email')}</span>
-                                info@cfm.co.mz
+                                cfmlogistics@logistics.cfm.co.mz
                             </p>
                         </div>
                     </div>

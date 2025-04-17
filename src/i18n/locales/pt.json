@@ -36,7 +36,7 @@
       "stats": {
         "tradition": "Anos de Tradição",
         "ports": "Portos Modernos",
-        "projects": "Projetos Estratégicos"
+        "projects": "Projectos Estratégicos"
       }
     },
     "creation": {
@@ -62,9 +62,33 @@
         "highlight": "Logística Nacional",
         "description": "Ser a referência nacional em logística, infraestruturas e serviços na indústria de petróleo e gás."
       },
+      "values": {
+        "subtitle": "NOSSOS VALORES",
+        "title": "Princípios que",
+        "highlight": "Nos Guiam",
+        "description": "Valores fundamentais que orientam nossa atuação e relacionamento com clientes e parceiros",
+        "items": {
+          "0": {
+            "title": "Flexibilidade",
+            "description": "Adaptação ágil às necessidades do mercado e dos clientes."
+          },
+          "1": {
+            "title": "Credibilidade",
+            "description": "Transparência e confiança em todas as nossas relações."
+          },
+          "2": {
+            "title": "Soluções Integradas",
+            "description": "Abordagem holística para resolver desafios logísticos."
+          },
+          "3": {
+            "title": "Relações a Longo Prazo",
+            "description": "Compromisso com parcerias duradouras e crescimento mútuo."
+          }
+        }
+      },
       "objectives": {
         "subtitle": "COMPROMISSOS ESTRATÉGICOS",
-        "title": "Pilares de Atuação",
+        "title": "Pilares de Actuação",
         "description": "Bases fundamentais que orientam nossa excelência operacional",
         "0": {
           "title": "Infraestrutura Logística",
@@ -75,12 +99,12 @@
           "description": "Implementar práticas sustentáveis para eficiência operacional."
         },
         "2": {
-          "title": "Setor Energético",
+          "title": "Sector Energético",
           "description": "Oferecer serviços especializados para o sector energético."
         },
         "3": {
           "title": "Desenvolvimento Local",
-          "description": "Criar oportunidades de económicas e sociais de e para os moçambicanos."
+          "description": "Criar oportunidades económicas e sociais de e para os moçambicanos."
         },
         "4": {
           "title": "Excelência Operacional",
@@ -95,27 +119,27 @@
       "events": {
         "0": {
           "title": "Lançamento Oficial do CFM Logistics",
-          "description": "Marco histórico que estabelece uma nova era na logística moçambicana, com o lançamento oficial da CFM Logistics, empresa dedicada a revolucionar o setor com soluções integradas e inovadoras."
+          "description": "Marco histórico que estabelece uma nova era na logística moçambicana, com o lançamento oficial da CFM Logistics, empresa dedicada a revolucionar o sector com soluções integradas e inovadoras."
         },
         "1": {
           "title": "Tomada de posse do Conselho de Administração e do CEO",
-          "description": "Momento significativo com a nomeação da liderança estratégica, marcando o início de uma gestão focada em excelência operacional e desenvolvimento sustentável do setor logístico."
+          "description": "Momento significativo com a nomeação da liderança estratégica, marcando o início de uma gestão focada em excelência operacional e desenvolvimento sustentável do sector logístico."
         },
         "2": {
           "title": "Início das Operações Portuárias em Pemba",
           "description": "Expansão estratégica com o início das operações no Porto de Pemba, fortalecendo a presença da CFM Logistics no norte do país e ampliando a capacidade logística da região."
         },
         "3": {
-          "title": "Inicio das Operações Marítimas em Nacala",
+          "title": "Início das Operações Marítimas em Nacala",
           "description": "Ampliação das operações marítimas para o Porto de Nacala, consolidando a presença da CFM Logistics em um dos principais corredores logísticos do país e reforçando sua capacidade de atender demandas internacionais."
         },
         "4": {
           "title": "Operações no Porto de Nacala",
-          "description": "Operações estratégicas para atender às demandas do setor de petróleo e gás, maximizando a infraestrutura marítima e portuária."
+          "description": "Operações estratégicas para atender às demandas do sector de petróleo e gás, maximizando a infraestrutura marítima e portuária."
         },
         "5": {
           "title": "Parcerias Estratégicas",
-          "description": "Participação ativa na logística e suporte a grandes empreendimentos no setor energético, incluindo projetos como Coral Sul FLNG, Rovuma LNG e Golfinho/Atum LNG."
+          "description": "Participação ativa na logística e suporte a grandes empreendimentos no sector energético, incluindo projectos como Coral Sul FLNG, Rovuma LNG e Golfinho/Atum LNG."
         }
       }
     },
@@ -123,7 +147,7 @@
       "image_alt": "CFM Logistics Infraestrutura",
       "title": "Logística que Transforma.",
       "highlight": "Conexões que Impulsionam.",
-      "description": "Com expertise secular, infraestrutura robusta e compromisso com a sustentabilidade, a CFM LOGISTICS conecta Moçambique ao mundo e impulsiona o progresso econômico.",
+      "description": "Com expertise secular, infraestrutura robusta e compromisso com a sustentabilidade, a CFM LOGISTICS conecta Moçambique ao mundo e impulsiona o progresso económico.",
       "cta": "Saiba mais sobre nossas soluções integradas"
     },
     "office": {
@@ -133,7 +157,7 @@
       "contact": {
         "location": "Cidade de Maputo",
         "phone": "+258 21 427 631",
-        "email": "info@cfm.co.mz",
+        "email": "cfmlogistics@logistics.cfm.co.mz",
         "address": "Praça dos Trabalhadores, Maputo, Moçambique"
       },
       "labels": {
@@ -142,7 +166,7 @@
         "address": "Endereço"
       },
       "image_alt": "CFM LOGISTICS Office",
-      "cta": "Entre em contato"
+      "cta": "Entre em contacto"
     },
     "organogram": {
       "subtitle": "NOSSO ORGANOGRAMA",
@@ -151,6 +175,7 @@
       "highlight": "Nossa Estrutura",
       "presidente_conselho": "Presidente do Conselho de Administração",
       "presidente_comissao_executiva": "Presidente da Comissão Executiva",
+      "administradora": "Administradora",
       "director_operacoes": "Director de Operações",
       "director_comercial_financeiro": "Director Comercial e Financeiro",
       "chefe_administração_recursos_humanos": "Chefe da Administração e Recursos Humanos"
@@ -219,7 +244,7 @@
       "highlight": "Liderança em Movimento",
       "description": "Conectando recursos e oportunidades, transformando Moçambique em um polo logístico estratégico.",
       "content": {
-        "first": "A CFM LOGISTICS é uma empresa pioneira em soluções logísticas integradas, combinando tradição e inovação para impulsionar o desenvolvimento econômico de Moçambique.",
+        "first": "A CFM LOGISTICS é uma empresa pioneira em soluções logísticas integradas, combinando tradição e inovação para impulsionar o desenvolvimento económico de Moçambique.",
         "second": "Focados em sustentabilidade e eficiência, oferecemos serviços personalizados para atender à demanda da indústria de petróleo, gás e outros sectores estratégicos.",
         "third": "Nossa missão é transformar desafios logísticos em oportunidades, promovendo progresso económico e social."
       },
@@ -241,7 +266,7 @@
     "services": {
       "subtitle": "NOSSOS SERVIÇOS",
       "title": "Soluções Completas",
-      "description": "Conheça nossa gama de serviços especializados projetados para atender suas necessidades logísticas",
+      "description": "Conheça nossa gama de serviços especializados projectados para atender suas necessidades logísticas",
       "items": [
         {
           "title": "Serviços Marítimos",
@@ -272,7 +297,7 @@
           "description": "Atendimento especializado para a indústria energética com infraestrutura moderna."
         },
         {
-          "title": "Gestão de Projetos Logísticos",
+          "title": "Gestão de Projectos Logísticos",
           "description": "Planeamento e execução de operações logísticas adaptadas às necessidades de cada cliente."
         }
       ]
@@ -280,7 +305,7 @@
     "social": {
       "title": "Conectando Moçambique",
       "subtitle": "Infraestrutura que Impulsiona o Desenvolvimento",
-      "description": "Com uma infraestrutura robusta e operações eficientes, a CFM LOGISTICS desempenha um papel fundamental no crescimento econômico, facilitando o comércio e a mobilidade em Moçambique.",
+      "description": "Com uma infraestrutura robusta e operações eficientes, a CFM LOGISTICS desempenha um papel fundamental no crescimento económico, facilitando o comércio e a mobilidade em Moçambique.",
       "cta": "Saiba mais sobre nossas operações"
     },
     "news": {
@@ -326,7 +351,8 @@
         "description": "Com portos estratégicos, garantimos soluções que reduzem custos e aumentam a eficiência no deslocamento de cargas.",
         "highlights": [
           "Manuseio seguro de cargas pesadas e granéis",
-          "Soluções sob medida para diferentes setores"
+          "Soluções sob medida para diferentes sectores",
+          "Serviços personalizados para cada cliente"
         ]
       },
       "1": {
@@ -340,7 +366,7 @@
       },
       "2": {
         "title": "Serviços para Indústria de Petróleo e Gás",
-        "description": "Com expertise no setor de energia, atendemos operações logísticas para transporte, armazenagem e manuseio de cargas da indústria de petróleo e gás.",
+        "description": "Com expertise no sector de energia, atendemos operações logísticas para transporte, armazenagem e manuseio de cargas da indústria de petróleo e gás.",
         "highlights": [
           "Infraestrutura especializada para combustíveis",
           "Operações seguras e certificadas para GNL",
@@ -348,8 +374,8 @@
         ]
       },
       "3": {
-        "title": "Gestão de Projetos Logísticos",
-        "description": "Oferecemos consultoria e execução de projetos logísticos personalizados, ajudando empresas a otimizar operações e reduzir custos.",
+        "title": "Gestão de Projectos Logísticos",
+        "description": "Oferecemos consultoria e execução de projectos logísticos personalizados, ajudando empresas a otimizar operações e reduzir custos.",
         "highlights": [
           "Desenvolvimento de estratégias eficientes",
           "Integração de tecnologias de controle",
@@ -393,7 +419,7 @@
         },
         "1": {
           "number": "3.000+",
-          "label": "Quilômetros de Ferrovia",
+          "label": "Quilómetros de Ferrovia",
           "description": "Conectando as principais regiões do país"
         },
         "2": {
@@ -409,10 +435,10 @@
       }
     },
     "contact_cta": {
-      "image_alt": "CFM Logistics Contato",
+      "image_alt": "CFM Logistics Contacto",
       "title": "Precisa de uma Solução",
       "highlight": "Logística sob Medida?",
-      "description": "Nossa equipe está pronta para desenvolver a melhor solução para sua empresa. Entre em contato e descubra como podemos ajudar.",
+      "description": "Nossa equipe está pronta para desenvolver a melhor solução para sua empresa. Entre em contacto e descubra como podemos ajudar.",
       "cta": "Fale Conosco"
     }
   },
@@ -421,7 +447,7 @@
       "subtitle": "PUBLICAÇÕES",
       "title": "Notícias e Atualizações",
       "highlight": "Mantenha-se Informado",
-      "description": "Acompanhe as últimas novidades, projetos e conquistas da CFM LOGISTICS no setor de logística e transporte.",
+      "description": "Acompanhe as últimas novidades, projectos e conquistas da CFM LOGISTICS no sector de logística e transporte.",
       "image_alt": "CFM LOGISTICS Publicações"
     },
     "news": {
@@ -454,7 +480,7 @@
         },
         "email": {
           "title": "Email",
-          "info": "info@cfm.co.mz",
+          "info": "cfmlogistics@logistics.cfm.co.mz",
           "description": "Resposta em até 24 horas"
         },
         "address": {
@@ -483,7 +509,7 @@
       "fields": {
         "name": "Nome Completo",
         "email": "Email Profissional",
-        "phone": "Telefone",
+        "phone": "Telefone de Contacto",
         "company": "Empresa",
         "subject": "Assunto",
         "message": "Mensagem",

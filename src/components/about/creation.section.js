@@ -37,7 +37,7 @@ export default function CreationSection() {
                                     <div className="absolute -right-12 -top-12 w-32 h-32 bg-[#fc4c04]/5 
                                                   rounded-full group-hover:scale-150 transition-transform duration-500" />
                                     
-                                    <p className="text-gray-600 leading-relaxed relative">
+                                    <p className="text-gray-600 text-lg leading-relaxed relative">
                                         {t('about.creation.content.first')}
                                     </p>
                                 </div>
@@ -48,7 +48,7 @@ export default function CreationSection() {
                                     <div className="absolute -right-12 -top-12 w-32 h-32 bg-[#646464]/5 
                                                   rounded-full group-hover:scale-150 transition-transform duration-500" />
                                     
-                                    <p className="text-gray-600 leading-relaxed relative">
+                                    <p className="text-gray-600 text-lg leading-relaxed relative">
                                         {t('about.creation.content.second')}
                                     </p>
                                 </div>
